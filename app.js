@@ -16,7 +16,7 @@ app.use(
   cors({
     origin: [
       "https://helpful-beignet-7cbecf.netlify.app",
-      "https://roaring-biscochitos-29dea9.netlify.app",
+      "https://stellar-choux-9490d8.netlify.app/login",
     ],
     // origin: "*",
     // origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO],
