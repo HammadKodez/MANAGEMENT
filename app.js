@@ -14,7 +14,10 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO],
+    origin: [
+      "https://helpful-beignet-7cbecf.netlify.app",
+      process.env.FRONTEND_URL_TWO,
+    ],
     // origin: "*",
     // origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO],
     method: ["GET", "POST", "DELETE", "PUT"],
